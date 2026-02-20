@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Personal Security Audit Tool</title>
+  <title>secure-score | Personal Security Audit</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <h1> Personal Security Audit Tool</h1>
-    <p>Check your digital security habits instantly.</p>
+    <h1>🔐 secure-score</h1>
+    <p class="subtitle">Check your digital security habits instantly.</p>
 
     <form id="auditForm">
 
@@ -41,13 +41,26 @@
     </form>
 
     <div id="result" class="hidden">
-      <h2>Your Security Score:</h2>
-      <div id="scoreCircle"></div>
+      <h2>Your Security Score</h2>
+
+      <div class="progress">
+        <div id="progressBar"></div>
+      </div>
+
+      <p id="scoreText"></p>
       <p id="feedback"></p>
       <p id="lastScore"></p>
     </div>
-
   </div>
+
+  <footer class="footer">
+    <p>
+      Made by 
+      <a href="https://github.com/deekshith-8" target="_blank">
+        Deekshith Gowda
+      </a>
+    </p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
