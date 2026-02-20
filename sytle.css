@@ -3,27 +3,40 @@ body {
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #0f172a, #1e293b);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
 }
 
 .container {
-  background: #111827;
-  padding: 30px;
-  border-radius: 15px;
-  width: 400px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  padding: 35px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
 h1 {
   text-align: center;
+  background: linear-gradient(90deg, #22d3ee, #4ade80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 input[type="password"] {
@@ -51,27 +64,48 @@ button {
 }
 
 button:hover {
-  background: #38bdf8;
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(34,211,238,0.4);
 }
 
-#result {
-  margin-top: 20px;
-  text-align: center;
+.progress {
+  width: 100%;
+  height: 15px;
+  background: #1f2937;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #22d3ee, #4ade80);
+  transition: width 1s ease-in-out;
 }
 
 .hidden {
   display: none;
 }
 
-#scoreCircle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 10px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
+.footer {
+  margin-top: 20px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.footer a {
+  text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: #22d3ee;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
 }
