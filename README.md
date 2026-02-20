@@ -1,3 +1,7 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow)
+![Status](https://img.shields.io/badge/status-Active-success)
+
 # secure-score
 
 A web-based tool that evaluates digital security habits and generates a personalized security score with actionable recommendations.
