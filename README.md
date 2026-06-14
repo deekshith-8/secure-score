@@ -1,37 +1,61 @@
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow)
-![Status](https://img.shields.io/badge/status-Active-success)
+<div align="center">
+  <h1>Secure Score</h1>
+  <p>Evaluate your digital security habits. Get a score. Know where you stand.</p>
 
-# secure-score
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub Pages-Deployed-222222?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
 
-A web-based tool that evaluates digital security habits and generates a personalized security score with actionable recommendations.
+  <br /><br />
+
+  <a href="https://deekshith-8.github.io/secure-score/"><strong>→ Live Demo</strong></a>
+</div>
+
+---
+
+## Overview
+
+Secure Score is a browser-based tool that evaluates a user's digital security practices and generates a personalized security score. It analyzes password strength, classifies risk levels and delivers smart, actionable recommendations — all running client-side with no backend required.
+
+---
 
 ## Features
-- Password strength analysis
-- Security scoring system
-- Risk-level classification
-- Smart recommendations
-- Local score tracking (localStorage)
+
+- Password strength analysis with real-time feedback
+- Overall security score based on multiple habit factors
+- Risk-level classification — Low, Medium, High
+- Personalized recommendations based on results
+- Local score tracking via localStorage
+- Zero dependencies — pure HTML, CSS and JavaScript
+
+---
 
 ## Tech Stack
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5)  
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)  
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?logo=javascript)
+| Layer | Technology |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Storage | localStorage |
+| Deployment | GitHub Pages |
 
-## Live Demo
-https://deekshith-8.github.io/secure-score/
+---
 
-## Future Improvements
-- AI-based security recommendations
-- Backend integration
-- User authentication
-- Score history tracking
+## Roadmap
 
-## Screenshots
+- AI-powered security recommendations
+- Backend integration for persistent tracking
+- User authentication and score history
 
-![Dashboard](assets/dashboard.png)
-![Result](assets/result.png)
+---
 
-## Author
-**Deekshith Gowda**
+## License
+
+MIT — free to use, modify and distribute.
+
+---
+
+<div align="center">
+  <p>Built by <a href="https://linkedin.com/in/deekshithg1206">Deekshith Gowda</a> &nbsp;·&nbsp; <a href="https://github.com/deekshith-8">GitHub</a></p>
+</div>
